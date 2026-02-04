@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="cVZk38bKWYH2LR_NmbNq">
+    <mxGraphModel dx="1181" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X1-f88b4do912fTF0PWD-1" value="Nest.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-297" value="Database&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(Postgresql)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="750" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-302" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-297" target="X1-f88b4do912fTF0PWD-301">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="600" as="targetPoint" />
+            <mxPoint x="630" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-301" target="X1-f88b4do912fTF0PWD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-301" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Prisma(ORM)&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-303" value="Cloudinary&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(D3 Files storage)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="750" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-306" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-305" target="X1-f88b4do912fTF0PWD-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-307" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424.9985714285715" y="670" as="sourcePoint" />
+            <mxPoint x="424.9985714285715" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424.97" y="600" />
+              <mxPoint x="424.97" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-305" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Cloudinary(CLI)&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="670" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-309" target="X1-f88b4do912fTF0PWD-311">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-309" target="X1-f88b4do912fTF0PWD-326">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-309" value="Telegram Bot&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(For order notify)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="750" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-311" target="X1-f88b4do912fTF0PWD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-311" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;TelegramBotAPI&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeColor=default;glass=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-326" value="Telegram Chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="880" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="390" as="sourcePoint" />
+            <mxPoint x="424" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-334" value="&lt;div&gt;&lt;b&gt;REST API&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X1-f88b4do912fTF0PWD-330">
+          <mxGeometry x="0.04" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-329" value="Next.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-332" target="X1-f88b4do912fTF0PWD-329">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-332" value="User UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1-f88b4do912fTF0PWD-336" target="X1-f88b4do912fTF0PWD-329">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1-f88b4do912fTF0PWD-336" value="Admin UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
