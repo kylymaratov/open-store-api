@@ -1,4 +1,4 @@
-# General Avto Store API
+# Open Store API
 
 ## Overview
 NestJS-based backend API for an automotive parts e-commerce platform. Provides:
