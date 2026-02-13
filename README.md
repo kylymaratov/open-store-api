@@ -1,47 +1,52 @@
-# Open Store API
+# Nest Store API Template
 
-## Overview
-NestJS-based backend API for an automotive parts e-commerce platform. Provides:
-- Admin authentication and management
-- Product catalog with categories
-- Order processing
-- File storage integration (Cloudinary)
+A NestJS-based API template for e-commerce platforms with MVP deployment.
 
 ## Tech Stack
-- NestJS
-- Prisma ORM
-- PostgreSQL
-- Redis (caching/rate limiting)
-- JWT authentication
 
-## Setup
+- NestJS 11
+- PostgreSQL + Prisma ORM
+- Redis
+- JWT Authentication
+- Cloudinary
+
+## Quick Start
+
 ```bash
 # Install dependencies
 npm install
 
-# Configure environment
+# Setup environment
 cp .env.example .env
-# Edit .env with your credentials
 
-# Database setup
+# Run migrations
 npx prisma migrate dev
 
-# Development
+# Start development
 npm run start:dev
-
-# Production build
-npm run build
-npm run start:prod
 ```
 
-## API Structure
-- `src/api/` - Main API endpoints
-- `src/common/` - Shared utilities/guards
-- `prisma/` - Database schema
-- `src/main.ts` - Application entry point
+## Scripts
 
-## Deployment
-Docker-ready with health checks. Requires:
+- `npm run start:dev` - Development with watch mode
+- `npm run start:prod` - Production server
+- `npm run build` - Build project
+- `npm run format` - Format code
+
+## Project Structure
+
+```
+src/
+├── api/          - API routes & controllers
+├── common/       - Guards, decorators, utilities
+├── databases/    - Prisma & Redis services
+├── integrations/ - External services
+└── modules/      - Feature modules
+```
+
+## Requirements
+
+- Node.js 16+
 - PostgreSQL
 - Redis
-- Cloudinary credentials
+- Cloudinary account (optional)
